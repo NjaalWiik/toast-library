@@ -6,7 +6,7 @@ const DEFAULT_OPTIONS = {
   showProgress: true,
 };
 
-export default class Toast {
+class Toast {
   #toastElem;
   #autoCloseInterval;
   #progressInterval;

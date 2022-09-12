@@ -1,6 +1,7 @@
 .toast {
   cursor: pointer;
   transition: transform 300ms ease-in-out;
+  z-index: 999;
 }
 
 .toast-container[data-position$='-right'] .toast {
@@ -142,13 +143,13 @@
   cursor: pointer;
 }
 
+.toast-exit-icon:hover {
+  background-color: #f9fafb;
+  color: #475467;
+}
+
 .toast-text {
   font-family: Inter, sans-serif;
   color: #667085;
   font-weight: 400;
-}
-
-.toast-exit-icon:hover {
-  background-color: #f9fafb;
-  color: #475467;
 }
